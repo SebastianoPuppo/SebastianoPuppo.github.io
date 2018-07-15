@@ -1,0 +1,143 @@
+#sfondo{
+  background-color: #DBDADA;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.titolo{
+  margin-left: 600px;
+  padding-top: 50px;
+  position: absolute;
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #A1A0A0;
+  transition: 1s;
+}
+
+p{
+  margin-top: 125px;
+  font-size: 150%;
+  font-family:'Open Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+#box {
+  color:#DBDADA;
+  position: absolute;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.box1 {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  top: 20%;
+  right: 45%;
+  transition: 2s;
+  transition-property: width;
+  }
+
+
+.box2 {
+  width: 180px;
+  height: 180px;
+  top: 51.5%;
+  left: 43.3%;
+  transition: width 2s;
+  position: relative;
+  z-index: +1;
+  }
+
+.box3 {
+  width: 180px;
+  height: 180px;
+  top: 20%;
+  left: 58.6%;
+  transition: height 2s;
+  position:relative;
+
+  }
+
+.box4 {
+  width: 180px;
+  height: 180px;
+  bottom: 24.7%;
+  left: 28.3%;
+  transition: 2s;
+  transition-property: height;
+  }
+
+  .box1:hover{
+    background: url("rivista.jpg");
+    background-size: 410px;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 420px;
+    }
+
+  .box2:hover{
+    background: url("monti.jpeg");
+    background-size: 410px;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 420px;
+  }
+
+  .box3:hover{
+    background: #A1A0A0;
+    background-size: 410px;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 420;
+  }
+
+  .box4:hover{
+    background: url("foto_io.jpeg");
+    background-size: 410px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 420px;
+  }
+
+
+.fa{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color:#DBDADA;
+    transition: font-size, 0.5s;
+    padding-top: 25px;
+}
+
+.fa-facebook{
+  margin-left: 73px;
+}
+
+.fa-behance{
+  margin-left: 62px;
+}
+
+.fa-pinterest{
+  margin-left: 70px;
+}
+
+.fa:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.titolo:hover{
+ color: white;
+ transform: scale(2);
+}
